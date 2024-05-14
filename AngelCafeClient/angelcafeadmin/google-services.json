@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "142184020468",
+    "project_id": "angel-cafe-client",
+    "storage_bucket": "angel-cafe-client.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142184020468:android:53c21d9b731119ee3ce1a1",
+        "android_client_info": {
+          "package_name": "com.example.angelcafeadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3lHwHaPEOH4yvSVmhHJqXCXEgoChQ468"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142184020468:android:40cb848544c413873ce1a1",
+        "android_client_info": {
+          "package_name": "com.example.angelcafeclient"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3lHwHaPEOH4yvSVmhHJqXCXEgoChQ468"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

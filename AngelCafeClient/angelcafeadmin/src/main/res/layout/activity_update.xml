@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/update2"
+    tools:context=".UpdateActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="300dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateCoffeeName"
+                android:background="@drawable/brown_border"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:padding="16dp"
+                android:hint="Enter Coffee name"
+                android:textColorHint="@color/black"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/brown"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateCoffeeCode"
+                android:background="@drawable/brown_border"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:padding="16dp"
+                android:hint="Enter Coffee Code"
+                android:textColorHint="@color/black"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/brown"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateCoffeePrice"
+                android:background="@drawable/brown_border"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:padding="16dp"
+                android:hint="Enter Coffee Price"
+                android:textColorHint="@color/black"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/brown"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateCoffeeMakeTime"
+                android:background="@drawable/brown_border"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:padding="16dp"
+                android:hint="Enter Coffee Preparing Time"
+                android:textColorHint="@color/black"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/brown"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Update"
+                android:id="@+id/updateButton"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/brown"
+                app:cornerRadius = "20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
